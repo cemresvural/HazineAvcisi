@@ -42,7 +42,13 @@ void start(int can,int matris[][10]){
 int secimf(int secim)
 {
 	system("color 5");
-printf("Hazine avýna hazýr mýsýnýz? Elmaslarý toplamaya baþlamak için herhangi bir tuþa basýnýz:");
+printf("Hazine avýna hazýr mýsýn?\n");
+printf("Amacýn elmaslarý toplamak ama bu sandýðýn kadar kolay olmayacak.\n");
+printf("5 elmas bulman gerekmekte ve bu elmaslar askerler tarafýndan korunmakta\n");
+printf("Bakalým askerlere yakalanmadan elmaslarý toplayacabilecek misin?\n");
+printf("Elmaslara olan mesafeni ekranda göreceksin.Sadece 3 canýn var iyi kullan\n ");
+printf("w:yukarý , s: asagi ,a: sola ,d: saga\n");
+printf("Elmaslarý toplamaya baþlamak için herhangi bir tuþa bas ve enterla:");
 scanf("%d",&secim);
 
 return secim;
@@ -221,7 +227,7 @@ int main()
 	{
 		if(matris[d[i]][d2[i]]==0)
 		{
-			printf("%d. Elmasý buldunuz\n",i+1);
+			printf("%d. Elmasý buldun\n",i+1);
 		}
 			
 		else
